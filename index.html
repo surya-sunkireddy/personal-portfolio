@@ -1,94 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
-    <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <nav>
-      <div class="left">
-        <a href="/">Surya Sunkireddy</a>
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Surya Sunkireddy</a>
+    </div>
+
+    <div class="right">
+      <a href="https://github.com/surya-sunkireddy" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github"></i>
+        <span>Github</span>
+      </a>
+
+      <a href="https://www.linkedin.com/in/surya-prakash-sunkireddy-555a6826b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>Linkedin</span>
+      </a>
+
+      <a href="mailto:r190974@rguktrkv.ac.in">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Surya 👋</h2>
+        <p>Studying B.Tech ECE at RGUKT RK valley</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          <a href="#resume">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Resume</span>
+          </a>
+          <a href="#projects">
+            <i class="fa-solid fa-cube"></i>
+            <span>Projects</span>
+          </a>
+        </div>
       </div>
 
-      <div class="right">
-        <a
-          href="https://github.com/surya-sunkireddy"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-github"></i>
-          <span>Github</span>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/surya-prakash-sunkireddy-555a6826b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-linkedin"></i>
-          <span>Linkedin</span>
-        </a>
-
-        <a href="mailto:r190974@rguktrkv.ac.in">
-          <i class="fa-solid fa-envelope"></i>
-          <span>Email</span>
-        </a>
+      <div class="headshot">
+        <img src="assets/images/self.png" alt="surya headshot" />
       </div>
-    </nav>
+    </section>
 
-    <main>
-      <!-- SECTION 1: Hero -->
-      <section class="hero-section">
-        <div class="text">
-          <h2>Hi, I'm Surya 👋</h2>
-          <p>Studying B.Tech ECE at RGUKT RK valley</p>
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text"></div>
 
-          <div class="links">
-            <a href="#skills">
-              <i class="fa-solid fa-code"></i>
-              <span>Skills</span>
-            </a>
-          </div>
+      <div class="cells">
+        <div class="cell">
+          <img src="assets/images/html-logo.webp" alt="html logo" />
+          <span>HTML</span>
         </div>
-
-        <div class="headshot">
-          <img src="images/self.png" alt="surya headshot" />
+        <div class="cell">
+          <img src="assets/images/iot.png" alt="iot logo" />
+          <span>IoT</span>
         </div>
-      </section>
+      </div>
+    </section>
+    <h1>Resume</h1>
 
-      <!-- SECTION 2: Skills -->
-      <section id="skills" class="skills-section">
-        <h2>Skills</h2>
-        <div class="text"></div>
+  </main>
+  <div id="resume">
+    <object class="pdf" data="assets/surya_resume.pdf">
+    </object>
+  </div>
+  <div id="projects">
+    <p> Projects</p>
+  </div>
+</body>
 
-        <div class="cells">
-          <div class="cell">
-            <img src="images/html-logo.webp" alt="html logo" />
-            <span>HTML</span>
-          </div>
-        </div>
-      </section>
-    </main>
-  </body>
 </html>
